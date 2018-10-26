@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked element(xpath: By.xpath: //*[@id='search-icon-legacy']).]]>
+    </line>
+    <line>
+      <![CDATA[Clicked element(xpath: By.xpath: //*[@id="video-title"]).]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12446" started-at="2018-10-25T21:45:01Z" finished-at="2018-10-25T21:45:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12446" started-at="2018-10-25T21:45:01Z" finished-at="2018-10-25T21:45:14Z">
+      <class name="testCases.TC001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.TC001@3532ec19]" name="setUp" is-config="true" duration-ms="10518" started-at="2018-10-25T21:45:01Z" finished-at="2018-10-25T21:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="pOMconfig()[pri:0, instance:testCases.TC001@3532ec19]" name="pOMconfig" is-config="true" duration-ms="3" started-at="2018-10-25T21:45:12Z" finished-at="2018-10-25T21:45:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pOMconfig -->
+        <test-method status="PASS" signature="TC001()[pri:1, instance:testCases.TC001@3532ec19]" name="TC001" duration-ms="1908" started-at="2018-10-25T21:45:12Z" finished-at="2018-10-25T21:45:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked element(xpath: By.xpath: //*[@id='search-icon-legacy']).]]>
+            </line>
+            <line>
+              <![CDATA[Clicked element(xpath: By.xpath: //*[@id="video-title"]).]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+      </class> <!-- testCases.TC001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
